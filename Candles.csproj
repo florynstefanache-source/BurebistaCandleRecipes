@@ -1,0 +1,44 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework><ImplicitUsings>enable</ImplicitUsings><Nullable>disable</Nullable>
+    <Version>0.3.2</Version><AssemblyName>BurebistaCandleRecipes</AssemblyName><NuGetAudit>false</NuGetAudit>
+    <GameDir Condition="'$(GameDir)' == ''">C:\Program Files (x86)\Steam\steamapps\common\TheLongDark</GameDir>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="$(GameDir)\MelonLoader\Il2CppAssemblies\UnityEngine.ImageConversionModule.dll" Private="false" />
+    <Reference Include="$(GameDir)\MelonLoader\Il2CppAssemblies\UnityEngine.IMGUIModule.dll" Private="false" />
+    <Reference Include="$(GameDir)\MelonLoader\Il2CppAssemblies\UnityEngine.AudioModule.dll" Private="false" />
+    <Reference Include="$(GameDir)\MelonLoader\Il2CppAssemblies\UnityEngine.AnimationModule.dll" Private="false" />
+    <Reference Include="$(GameDir)\MelonLoader\Il2CppAssemblies\UnityEngine.InputLegacyModule.dll" Private="false" />
+    <Reference Include="$(GameDir)\MelonLoader\Il2CppAssemblies\Il2CppAK.Wwise.Unity.API.WwiseTypes.dll" Private="false" />
+    <Reference Include="$(GameDir)\MelonLoader\Il2CppAssemblies\Il2CppAK.Wwise.Unity.API.dll" Private="false" />
+    <Reference Include="$(GameDir)\MelonLoader\net6\MelonLoader.dll" Private="false" />
+    <Reference Include="$(GameDir)\MelonLoader\net6\0Harmony.dll" Private="false" />
+    <Reference Include="$(GameDir)\MelonLoader\net6\Il2CppInterop.Runtime.dll" Private="false" />
+    <Reference Include="$(GameDir)\MelonLoader\Il2CppAssemblies\Assembly-CSharp.dll" Private="false" />
+    <Reference Include="$(GameDir)\MelonLoader\Il2CppAssemblies\Il2Cppmscorlib.dll" Private="false" />
+    <Reference Include="$(GameDir)\MelonLoader\Il2CppAssemblies\Il2CppTLD.IntBackedUnit.dll" Private="false" />
+    <Reference Include="$(GameDir)\MelonLoader\Il2CppAssemblies\Il2CppTLD.Addressables.dll" Private="false" />
+    <Reference Include="$(GameDir)\MelonLoader\Il2CppAssemblies\UnityEngine.CoreModule.dll" Private="false" />
+    <Reference Include="$(GameDir)\MelonLoader\Il2CppAssemblies\UnityEngine.PhysicsModule.dll" Private="false" />
+    <Reference Include="$(GameDir)\MelonLoader\Il2CppAssemblies\UnityEngine.AssetBundleModule.dll" Private="false" />
+    <Reference Include="$(GameDir)\MelonLoader\Il2CppAssemblies\Unity.Addressables.dll" Private="false" />
+    <Reference Include="$(GameDir)\MelonLoader\Il2CppAssemblies\Unity.ResourceManager.dll" Private="false" />
+  </ItemGroup>
+<ItemGroup><Reference Include="$(GameDir)/MelonLoader/Il2CppAssemblies/UnityEngine.TextRenderingModule.dll" Private="false" /></ItemGroup><ItemGroup><EmbeddedResource Include="Candle.png" LogicalName="Burebista.Candle.png" /></ItemGroup><ItemGroup><EmbeddedResource Include="Wick.png" LogicalName="Burebista.Wick.png" /></ItemGroup><ItemGroup><Reference Include="$(GameDir)/MelonLoader/Il2CppAssemblies/Il2CppTLD.PDID.dll" Private="false" /></ItemGroup><ItemGroup><EmbeddedResource Include="WickPiece.png" LogicalName="Burebista.WickPiece.png" /></ItemGroup><ItemGroup><Reference Include="$(GameDir)/MelonLoader/Il2CppAssemblies/UnityEngine.ParticleSystemModule.dll" Private="false" /></ItemGroup></Project>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
